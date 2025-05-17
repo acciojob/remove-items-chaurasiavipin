@@ -1,13 +1,11 @@
-//your JS code here. If required.
-const select=document.getElementById("coloSelect");
-const buttm=document.getElementsByTagName("input")[0];
-buttm.addEventListener("click", deletElement);
-function deletElement() {
-	let index=select.selectedIndex;
-	if(index>=0){
-		select.remove(index);
-	}
-		
-}
-	
-}
+
+    const select = document.getElementById("colorSelect");
+    const button = document.getElementsByTagName("input")[0];
+
+    button.addEventListener("click", function () {
+      const selectedIndex = select.selectedIndex;
+
+      if (selectedIndex >= 0) {
+        select.remove(selectedIndex);
+      }
+    });
