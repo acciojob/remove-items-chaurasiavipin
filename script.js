@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const select=document.getElementById("coloSelect");
-const buttm=document.getElementByTagName("input")[0];
+const buttm=document.getElementsByTagName("input")[0];
 buttm.addEventListener("click", deletElement);
 function deletElement() {
 	let index=select.selectedIndex;
