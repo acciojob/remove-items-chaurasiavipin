@@ -5,10 +5,9 @@ buttm.addEventListener("change", deletElement)
 function deletElement() {
 	let index=select.selectedIndex;
 	if(index>=0){
-		select.remove(index)
+		select.remove(index);
 	}
-	
 		
-	
+}
 	
 }
